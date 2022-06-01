@@ -113,8 +113,6 @@ func show() {
     id := fmt.Sprintf("id:%d.%d", idle_num, idle_comma)
 
     fmt.Printf("%s %s %s %s\n", us, ni, sy, id)
-
-    last = current
 }
 
 func main() {
